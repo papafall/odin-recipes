@@ -1,0 +1,33 @@
+#recipe-list {
+  font-size: 20px;
+}
+
+.description,
+.ingredients,
+.steps {
+  font-family: cursive, sans-serif;
+  font-size: 30px;
+}
+
+h2::after {
+  content: ":";
+}
+
+h2 {
+  padding-top: 18px;
+  margin-bottom: -8px;
+}
+
+li,
+.desc-para {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.ing-list {
+  font-family: "Brush Script MT", sans-serif;
+}
+
+.steps-list {
+  font-family: Papyrus, sans-serif;
+}
