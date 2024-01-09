@@ -2,13 +2,20 @@ body {
   background-color: rgba(118, 112, 84, 0.475);
 }
 
+/*
 #recipe-list li {
   display: inline-block;
   margin: 20px;
 }
+*/
 
-#recipes-block {
-  display: flex;
+.recipe-block {
+  display: inline-block;
+  margin: 20px;
+}
+
+#recipes-list {
+  display: block;
   text-align: center;
 }
 
@@ -19,7 +26,14 @@ body {
   font-size: 25px;
 }
 
+/*
 #recipe-list li img {
+  width: 300px;
+  height: auto;
+}
+*/
+
+.recipe-block img {
   width: 300px;
   height: auto;
 }
