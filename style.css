@@ -4,7 +4,12 @@ body {
 
 #recipe-list li {
   display: inline-block;
-  margin: 15px;
+  margin: 20px;
+}
+
+#recipes-block {
+  display: flex;
+  text-align: center;
 }
 
 .recipe-title {
@@ -17,10 +22,6 @@ body {
 #recipe-list li img {
   width: 300px;
   height: auto;
-}
-
-#recipe-list {
-  font-size: 20px;
 }
 
 .description,
